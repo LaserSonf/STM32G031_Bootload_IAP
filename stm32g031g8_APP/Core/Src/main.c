@@ -19,7 +19,7 @@ void Flash_OB_Handle(void);
 
 void SystemClock_Config(void);
 
-int main(void) 
+int main(void)
 {
 	SCB->VTOR=APPLICATION_ADDRESS;
 	
